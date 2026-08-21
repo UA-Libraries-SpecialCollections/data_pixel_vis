@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema
+	targetNamespace="http://www.jeremiahcolonnaromano.com/daxelject"
+	xmlns="http://www.jeremiahcolonnaromano.com/daxelject"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	>
+	
+<!-- INTRODUCTION -->
+	<xs:annotation>
+		<xs:documentation xml:lang="en">
+			<!-- TODO: schema intro annotation -->
+		<daxelject>	
+		
+			<spacelevel>
+				daxelspace dimX
+				daxelspace dimY
+				input raw file name
+				<phase>
+					skew
+					tilt
+					zorientation
+					zdepth
+					zspacediv
+					lines
+					points
+					<atmosperspec>
+						apx
+						apy
+						apradius
+						apcurve
+					</atmosperspec>
+				</phase>
+			</spacelevel>
+			
+			<daxellevel>
+				daxel matrix posX
+				daxel matrix posY
+				r
+				g
+				b
+				x
+				y
+				z
+				matrix stream index
+				x offset (explicit)
+				y offset (explicit)
+				z offset (explicit)
+				<metadaxellevel>
+					r
+					g
+					b
+					x offset (intrinsic)
+					y offset (intrinsic)
+					z offset (intrinsic)
+				</metadaxellevel>
+					<metadaxellevel>
+						r
+						g
+						b
+						x offset (intrinsic)
+						y offset (intrinsic)
+						z offset (intrinsic)
+					</metadaxellevel>
+			</daxellevel>
+				
+		</daxelject>
+		
+		</xs:documentation>
+	</xs:annotation>
+
+
+<!-- ELEMENT MAP -->
+
+
+
+
+</xs:schema>
+
+<!--SANDBOX--><!-- TODO: sandbox cleanup -->
+
+
+
+</!--SANDBOX-->
